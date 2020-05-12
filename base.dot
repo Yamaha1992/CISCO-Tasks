@@ -1,0 +1,153 @@
+digraph {
+	compound = "true"
+	newrank = "true"
+	subgraph "root" {
+		"[root] module.ec2_cluster.aws_instance.this" [label = "module.ec2_cluster.aws_instance.this", shape = "box"]
+		"[root] module.ec2_cluster.local.is_t_instance_type" [label = "module.ec2_cluster.local.is_t_instance_type", shape = "note"]
+		"[root] module.ec2_cluster.output.arn" [label = "module.ec2_cluster.output.arn", shape = "note"]
+		"[root] module.ec2_cluster.output.availability_zone" [label = "module.ec2_cluster.output.availability_zone", shape = "note"]
+		"[root] module.ec2_cluster.output.credit_specification" [label = "module.ec2_cluster.output.credit_specification", shape = "note"]
+		"[root] module.ec2_cluster.output.ebs_block_device_volume_ids" [label = "module.ec2_cluster.output.ebs_block_device_volume_ids", shape = "note"]
+		"[root] module.ec2_cluster.output.id" [label = "module.ec2_cluster.output.id", shape = "note"]
+		"[root] module.ec2_cluster.output.instance_count" [label = "module.ec2_cluster.output.instance_count", shape = "note"]
+		"[root] module.ec2_cluster.output.instance_state" [label = "module.ec2_cluster.output.instance_state", shape = "note"]
+		"[root] module.ec2_cluster.output.ipv6_addresses" [label = "module.ec2_cluster.output.ipv6_addresses", shape = "note"]
+		"[root] module.ec2_cluster.output.key_name" [label = "module.ec2_cluster.output.key_name", shape = "note"]
+		"[root] module.ec2_cluster.output.password_data" [label = "module.ec2_cluster.output.password_data", shape = "note"]
+		"[root] module.ec2_cluster.output.placement_group" [label = "module.ec2_cluster.output.placement_group", shape = "note"]
+		"[root] module.ec2_cluster.output.primary_network_interface_id" [label = "module.ec2_cluster.output.primary_network_interface_id", shape = "note"]
+		"[root] module.ec2_cluster.output.private_dns" [label = "module.ec2_cluster.output.private_dns", shape = "note"]
+		"[root] module.ec2_cluster.output.private_ip" [label = "module.ec2_cluster.output.private_ip", shape = "note"]
+		"[root] module.ec2_cluster.output.public_dns" [label = "module.ec2_cluster.output.public_dns", shape = "note"]
+		"[root] module.ec2_cluster.output.public_ip" [label = "module.ec2_cluster.output.public_ip", shape = "note"]
+		"[root] module.ec2_cluster.output.root_block_device_volume_ids" [label = "module.ec2_cluster.output.root_block_device_volume_ids", shape = "note"]
+		"[root] module.ec2_cluster.output.security_groups" [label = "module.ec2_cluster.output.security_groups", shape = "note"]
+		"[root] module.ec2_cluster.output.subnet_id" [label = "module.ec2_cluster.output.subnet_id", shape = "note"]
+		"[root] module.ec2_cluster.output.tags" [label = "module.ec2_cluster.output.tags", shape = "note"]
+		"[root] module.ec2_cluster.output.volume_tags" [label = "module.ec2_cluster.output.volume_tags", shape = "note"]
+		"[root] module.ec2_cluster.output.vpc_security_group_ids" [label = "module.ec2_cluster.output.vpc_security_group_ids", shape = "note"]
+		"[root] module.ec2_cluster.var.ami" [label = "module.ec2_cluster.var.ami", shape = "note"]
+		"[root] module.ec2_cluster.var.associate_public_ip_address" [label = "module.ec2_cluster.var.associate_public_ip_address", shape = "note"]
+		"[root] module.ec2_cluster.var.cpu_credits" [label = "module.ec2_cluster.var.cpu_credits", shape = "note"]
+		"[root] module.ec2_cluster.var.disable_api_termination" [label = "module.ec2_cluster.var.disable_api_termination", shape = "note"]
+		"[root] module.ec2_cluster.var.ebs_block_device" [label = "module.ec2_cluster.var.ebs_block_device", shape = "note"]
+		"[root] module.ec2_cluster.var.ebs_optimized" [label = "module.ec2_cluster.var.ebs_optimized", shape = "note"]
+		"[root] module.ec2_cluster.var.ephemeral_block_device" [label = "module.ec2_cluster.var.ephemeral_block_device", shape = "note"]
+		"[root] module.ec2_cluster.var.get_password_data" [label = "module.ec2_cluster.var.get_password_data", shape = "note"]
+		"[root] module.ec2_cluster.var.iam_instance_profile" [label = "module.ec2_cluster.var.iam_instance_profile", shape = "note"]
+		"[root] module.ec2_cluster.var.instance_count" [label = "module.ec2_cluster.var.instance_count", shape = "note"]
+		"[root] module.ec2_cluster.var.instance_initiated_shutdown_behavior" [label = "module.ec2_cluster.var.instance_initiated_shutdown_behavior", shape = "note"]
+		"[root] module.ec2_cluster.var.instance_type" [label = "module.ec2_cluster.var.instance_type", shape = "note"]
+		"[root] module.ec2_cluster.var.ipv6_address_count" [label = "module.ec2_cluster.var.ipv6_address_count", shape = "note"]
+		"[root] module.ec2_cluster.var.ipv6_addresses" [label = "module.ec2_cluster.var.ipv6_addresses", shape = "note"]
+		"[root] module.ec2_cluster.var.key_name" [label = "module.ec2_cluster.var.key_name", shape = "note"]
+		"[root] module.ec2_cluster.var.monitoring" [label = "module.ec2_cluster.var.monitoring", shape = "note"]
+		"[root] module.ec2_cluster.var.name" [label = "module.ec2_cluster.var.name", shape = "note"]
+		"[root] module.ec2_cluster.var.network_interface" [label = "module.ec2_cluster.var.network_interface", shape = "note"]
+		"[root] module.ec2_cluster.var.placement_group" [label = "module.ec2_cluster.var.placement_group", shape = "note"]
+		"[root] module.ec2_cluster.var.private_ip" [label = "module.ec2_cluster.var.private_ip", shape = "note"]
+		"[root] module.ec2_cluster.var.private_ips" [label = "module.ec2_cluster.var.private_ips", shape = "note"]
+		"[root] module.ec2_cluster.var.root_block_device" [label = "module.ec2_cluster.var.root_block_device", shape = "note"]
+		"[root] module.ec2_cluster.var.source_dest_check" [label = "module.ec2_cluster.var.source_dest_check", shape = "note"]
+		"[root] module.ec2_cluster.var.subnet_id" [label = "module.ec2_cluster.var.subnet_id", shape = "note"]
+		"[root] module.ec2_cluster.var.subnet_ids" [label = "module.ec2_cluster.var.subnet_ids", shape = "note"]
+		"[root] module.ec2_cluster.var.tags" [label = "module.ec2_cluster.var.tags", shape = "note"]
+		"[root] module.ec2_cluster.var.tenancy" [label = "module.ec2_cluster.var.tenancy", shape = "note"]
+		"[root] module.ec2_cluster.var.use_num_suffix" [label = "module.ec2_cluster.var.use_num_suffix", shape = "note"]
+		"[root] module.ec2_cluster.var.user_data" [label = "module.ec2_cluster.var.user_data", shape = "note"]
+		"[root] module.ec2_cluster.var.user_data_base64" [label = "module.ec2_cluster.var.user_data_base64", shape = "note"]
+		"[root] module.ec2_cluster.var.volume_tags" [label = "module.ec2_cluster.var.volume_tags", shape = "note"]
+		"[root] module.ec2_cluster.var.vpc_security_group_ids" [label = "module.ec2_cluster.var.vpc_security_group_ids", shape = "note"]
+		"[root] provider.aws" [label = "provider.aws", shape = "diamond"]
+		"[root] var.ami" [label = "var.ami", shape = "note"]
+		"[root] var.instance_count" [label = "var.instance_count", shape = "note"]
+		"[root] var.instance_type" [label = "var.instance_type", shape = "note"]
+		"[root] var.subnet_id" [label = "var.subnet_id", shape = "note"]
+		"[root] meta.count-boundary (EachMode fixup)" -> "[root] module.ec2_cluster.output.arn"
+		"[root] meta.count-boundary (EachMode fixup)" -> "[root] module.ec2_cluster.output.availability_zone"
+		"[root] meta.count-boundary (EachMode fixup)" -> "[root] module.ec2_cluster.output.credit_specification"
+		"[root] meta.count-boundary (EachMode fixup)" -> "[root] module.ec2_cluster.output.ebs_block_device_volume_ids"
+		"[root] meta.count-boundary (EachMode fixup)" -> "[root] module.ec2_cluster.output.id"
+		"[root] meta.count-boundary (EachMode fixup)" -> "[root] module.ec2_cluster.output.instance_count"
+		"[root] meta.count-boundary (EachMode fixup)" -> "[root] module.ec2_cluster.output.instance_state"
+		"[root] meta.count-boundary (EachMode fixup)" -> "[root] module.ec2_cluster.output.ipv6_addresses"
+		"[root] meta.count-boundary (EachMode fixup)" -> "[root] module.ec2_cluster.output.key_name"
+		"[root] meta.count-boundary (EachMode fixup)" -> "[root] module.ec2_cluster.output.password_data"
+		"[root] meta.count-boundary (EachMode fixup)" -> "[root] module.ec2_cluster.output.placement_group"
+		"[root] meta.count-boundary (EachMode fixup)" -> "[root] module.ec2_cluster.output.primary_network_interface_id"
+		"[root] meta.count-boundary (EachMode fixup)" -> "[root] module.ec2_cluster.output.private_dns"
+		"[root] meta.count-boundary (EachMode fixup)" -> "[root] module.ec2_cluster.output.private_ip"
+		"[root] meta.count-boundary (EachMode fixup)" -> "[root] module.ec2_cluster.output.public_dns"
+		"[root] meta.count-boundary (EachMode fixup)" -> "[root] module.ec2_cluster.output.public_ip"
+		"[root] meta.count-boundary (EachMode fixup)" -> "[root] module.ec2_cluster.output.root_block_device_volume_ids"
+		"[root] meta.count-boundary (EachMode fixup)" -> "[root] module.ec2_cluster.output.security_groups"
+		"[root] meta.count-boundary (EachMode fixup)" -> "[root] module.ec2_cluster.output.subnet_id"
+		"[root] meta.count-boundary (EachMode fixup)" -> "[root] module.ec2_cluster.output.tags"
+		"[root] meta.count-boundary (EachMode fixup)" -> "[root] module.ec2_cluster.output.volume_tags"
+		"[root] meta.count-boundary (EachMode fixup)" -> "[root] module.ec2_cluster.output.vpc_security_group_ids"
+		"[root] module.ec2_cluster.aws_instance.this" -> "[root] module.ec2_cluster.local.is_t_instance_type"
+		"[root] module.ec2_cluster.aws_instance.this" -> "[root] module.ec2_cluster.var.ami"
+		"[root] module.ec2_cluster.aws_instance.this" -> "[root] module.ec2_cluster.var.associate_public_ip_address"
+		"[root] module.ec2_cluster.aws_instance.this" -> "[root] module.ec2_cluster.var.cpu_credits"
+		"[root] module.ec2_cluster.aws_instance.this" -> "[root] module.ec2_cluster.var.disable_api_termination"
+		"[root] module.ec2_cluster.aws_instance.this" -> "[root] module.ec2_cluster.var.ebs_block_device"
+		"[root] module.ec2_cluster.aws_instance.this" -> "[root] module.ec2_cluster.var.ebs_optimized"
+		"[root] module.ec2_cluster.aws_instance.this" -> "[root] module.ec2_cluster.var.ephemeral_block_device"
+		"[root] module.ec2_cluster.aws_instance.this" -> "[root] module.ec2_cluster.var.get_password_data"
+		"[root] module.ec2_cluster.aws_instance.this" -> "[root] module.ec2_cluster.var.iam_instance_profile"
+		"[root] module.ec2_cluster.aws_instance.this" -> "[root] module.ec2_cluster.var.instance_count"
+		"[root] module.ec2_cluster.aws_instance.this" -> "[root] module.ec2_cluster.var.instance_initiated_shutdown_behavior"
+		"[root] module.ec2_cluster.aws_instance.this" -> "[root] module.ec2_cluster.var.ipv6_address_count"
+		"[root] module.ec2_cluster.aws_instance.this" -> "[root] module.ec2_cluster.var.ipv6_addresses"
+		"[root] module.ec2_cluster.aws_instance.this" -> "[root] module.ec2_cluster.var.key_name"
+		"[root] module.ec2_cluster.aws_instance.this" -> "[root] module.ec2_cluster.var.monitoring"
+		"[root] module.ec2_cluster.aws_instance.this" -> "[root] module.ec2_cluster.var.name"
+		"[root] module.ec2_cluster.aws_instance.this" -> "[root] module.ec2_cluster.var.network_interface"
+		"[root] module.ec2_cluster.aws_instance.this" -> "[root] module.ec2_cluster.var.placement_group"
+		"[root] module.ec2_cluster.aws_instance.this" -> "[root] module.ec2_cluster.var.private_ip"
+		"[root] module.ec2_cluster.aws_instance.this" -> "[root] module.ec2_cluster.var.private_ips"
+		"[root] module.ec2_cluster.aws_instance.this" -> "[root] module.ec2_cluster.var.root_block_device"
+		"[root] module.ec2_cluster.aws_instance.this" -> "[root] module.ec2_cluster.var.source_dest_check"
+		"[root] module.ec2_cluster.aws_instance.this" -> "[root] module.ec2_cluster.var.subnet_id"
+		"[root] module.ec2_cluster.aws_instance.this" -> "[root] module.ec2_cluster.var.subnet_ids"
+		"[root] module.ec2_cluster.aws_instance.this" -> "[root] module.ec2_cluster.var.tags"
+		"[root] module.ec2_cluster.aws_instance.this" -> "[root] module.ec2_cluster.var.tenancy"
+		"[root] module.ec2_cluster.aws_instance.this" -> "[root] module.ec2_cluster.var.use_num_suffix"
+		"[root] module.ec2_cluster.aws_instance.this" -> "[root] module.ec2_cluster.var.user_data"
+		"[root] module.ec2_cluster.aws_instance.this" -> "[root] module.ec2_cluster.var.user_data_base64"
+		"[root] module.ec2_cluster.aws_instance.this" -> "[root] module.ec2_cluster.var.volume_tags"
+		"[root] module.ec2_cluster.aws_instance.this" -> "[root] module.ec2_cluster.var.vpc_security_group_ids"
+		"[root] module.ec2_cluster.aws_instance.this" -> "[root] provider.aws"
+		"[root] module.ec2_cluster.local.is_t_instance_type" -> "[root] module.ec2_cluster.var.instance_type"
+		"[root] module.ec2_cluster.output.arn" -> "[root] module.ec2_cluster.aws_instance.this"
+		"[root] module.ec2_cluster.output.availability_zone" -> "[root] module.ec2_cluster.aws_instance.this"
+		"[root] module.ec2_cluster.output.credit_specification" -> "[root] module.ec2_cluster.aws_instance.this"
+		"[root] module.ec2_cluster.output.ebs_block_device_volume_ids" -> "[root] module.ec2_cluster.aws_instance.this"
+		"[root] module.ec2_cluster.output.id" -> "[root] module.ec2_cluster.aws_instance.this"
+		"[root] module.ec2_cluster.output.instance_count" -> "[root] module.ec2_cluster.var.instance_count"
+		"[root] module.ec2_cluster.output.instance_state" -> "[root] module.ec2_cluster.aws_instance.this"
+		"[root] module.ec2_cluster.output.ipv6_addresses" -> "[root] module.ec2_cluster.aws_instance.this"
+		"[root] module.ec2_cluster.output.key_name" -> "[root] module.ec2_cluster.aws_instance.this"
+		"[root] module.ec2_cluster.output.password_data" -> "[root] module.ec2_cluster.aws_instance.this"
+		"[root] module.ec2_cluster.output.placement_group" -> "[root] module.ec2_cluster.aws_instance.this"
+		"[root] module.ec2_cluster.output.primary_network_interface_id" -> "[root] module.ec2_cluster.aws_instance.this"
+		"[root] module.ec2_cluster.output.private_dns" -> "[root] module.ec2_cluster.aws_instance.this"
+		"[root] module.ec2_cluster.output.private_ip" -> "[root] module.ec2_cluster.aws_instance.this"
+		"[root] module.ec2_cluster.output.public_dns" -> "[root] module.ec2_cluster.aws_instance.this"
+		"[root] module.ec2_cluster.output.public_ip" -> "[root] module.ec2_cluster.aws_instance.this"
+		"[root] module.ec2_cluster.output.root_block_device_volume_ids" -> "[root] module.ec2_cluster.aws_instance.this"
+		"[root] module.ec2_cluster.output.security_groups" -> "[root] module.ec2_cluster.aws_instance.this"
+		"[root] module.ec2_cluster.output.subnet_id" -> "[root] module.ec2_cluster.aws_instance.this"
+		"[root] module.ec2_cluster.output.tags" -> "[root] module.ec2_cluster.aws_instance.this"
+		"[root] module.ec2_cluster.output.volume_tags" -> "[root] module.ec2_cluster.aws_instance.this"
+		"[root] module.ec2_cluster.output.vpc_security_group_ids" -> "[root] module.ec2_cluster.aws_instance.this"
+		"[root] module.ec2_cluster.var.ami" -> "[root] var.ami"
+		"[root] module.ec2_cluster.var.instance_count" -> "[root] var.instance_count"
+		"[root] module.ec2_cluster.var.instance_type" -> "[root] var.instance_type"
+		"[root] module.ec2_cluster.var.subnet_id" -> "[root] var.subnet_id"
+		"[root] provider.aws (close)" -> "[root] module.ec2_cluster.aws_instance.this"
+		"[root] root" -> "[root] meta.count-boundary (EachMode fixup)"
+		"[root] root" -> "[root] provider.aws (close)"
+	}
+}
+
